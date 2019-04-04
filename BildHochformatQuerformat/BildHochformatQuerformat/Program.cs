@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace BildHochformatQuerformat
 {
     public class Program

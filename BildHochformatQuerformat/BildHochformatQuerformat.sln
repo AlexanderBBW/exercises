@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BildHochformatQuerformat", "BildHochformatQuerformat.csproj", "{49BEC1D7-6B2A-49F7-AB02-E005A7391B87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BildHochformatQuerformat", "BildHochformatQuerformat\BildHochformatQuerformat.csproj", "{49BEC1D7-6B2A-49F7-AB02-E005A7391B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNit", "..\UNit\UNit.csproj", "{59BE3373-2B5D-458F-A6AB-4D66DB73F083}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNit", "UNit\UNit.csproj", "{59BE3373-2B5D-458F-A6AB-4D66DB73F083}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
