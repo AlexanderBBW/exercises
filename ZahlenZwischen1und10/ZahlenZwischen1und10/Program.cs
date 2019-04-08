@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace ZahlenZwischen1und10
 {
     public class Program

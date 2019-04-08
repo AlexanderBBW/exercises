@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using Blitzer;
-
 namespace NUnit
 {
     public class Class1

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace _3dividieren
 {
     class Program
@@ -17,7 +10,6 @@ namespace _3dividieren
             var zähler = Berechne(min, max);
             Ausgabe(zähler);
         }
-
         public static int Berechne(int min, int max)
         {
             var zähler = 0;
@@ -32,7 +24,6 @@ namespace _3dividieren
             }
             return zähler;
         }
-
         public static void Ausgabe(int zähler)
         {
             Console.WriteLine(zähler);
