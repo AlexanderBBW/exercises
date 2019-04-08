@@ -1,6 +1,5 @@
 ﻿using Fakultät_neuer;
 using NUnit.Framework;
-
 namespace NUnit
 {
     public class Class1

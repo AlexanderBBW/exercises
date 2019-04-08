@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Fakultät_neuer
 {
     public class Program
