@@ -31,12 +31,12 @@ namespace kk
             return eingaben;
         }
 
-        private static int Berechne(List<int> eingaben)
+        internal static int Berechne(List<int> eingaben)
         {
             return eingaben.Sum();
         }
 
-        private static void ZeigeErgebnis(int ergebnis)
+        internal static void ZeigeErgebnis(int ergebnis)
         {
             Console.WriteLine("Das Ergebnis ist {0}.", ergebnis);
         }

@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 namespace Groeße_Zahlen
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
+            var eingabe = HoleEingabe();
+            Ausgabe(eingabe);
         }
-
-        private static Array HoleEingabe()
+        internal static int HoleEingabe()
         {
-            var eingabe = Convert.ToBase64CharArray(Console.ReadLine());
-            String.ToCharArray(eingabe);
+            return Console.ReadLine().Split(',').ToList().ConvertAll(int.Parse).Max();
+        }
+        internal static void Ausgabe(int eingabe)
+        {
+            Console.WriteLine(eingabe);
         }
     }
 }
