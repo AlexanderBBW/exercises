@@ -14,7 +14,7 @@ namespace Gewinnspiel
         private static int Randomizer()
         {
             var zahl = new Random();
-            return zahl.Next(1,1);
+            return zahl.Next(1,11);
         }
 
         private static int HoleEingabe()

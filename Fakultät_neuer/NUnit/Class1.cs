@@ -13,7 +13,6 @@ namespace NUnit
                 var fak = Program.Fakultät(5);
                 Assert.AreEqual(120, fak);
             }
-
             [Test, Category("0 Überprüfung")]
             public static void Überprüfung()
             {
@@ -21,6 +20,5 @@ namespace NUnit
                 Assert.AreEqual(1, fak1);
             }
         }
-
     }
 }
