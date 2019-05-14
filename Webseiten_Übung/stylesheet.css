@@ -1,0 +1,99 @@
+body {
+    background-color: #1E1E2F;
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
+    color: white;
+}
+p {
+    text-align: center;
+}
+h1 {
+    color: #1f8ef1;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 90px;
+    letter-spacing: 7px;
+}
+.logo{
+    display: flex;
+    float: left;
+    color: #1F8EF1;
+    letter-spacing: 7px;
+    margin: 5px 0 0 20px;
+}
+nav{
+    height: 50px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    letter-spacing: 7px;   
+    float: right;
+}
+
+nav > ul > li > a{
+    color: white;
+    margin: 0 1em 0 1em;
+    text-decoration: none;
+    padding: 15px;
+}
+nav > ul > li > a:hover{
+    color: #1F8EF1;
+    border-bottom: 1px solid #1F8EF1;    
+    background-color: #383B50;
+    transition: 0.5s;
+    padding: 15px;
+    margin: 0 1em 0 1em;
+    text-decoration: none;
+}
+.aktuelle{
+    color: #1F8EF1;
+    border-bottom: 1px solid #1F8EF1;    
+    background-color: #383B50;
+    transition: 0.5s;
+    padding: 15px;
+    margin: 0 1em 0 1em;
+    text-decoration: none;
+}
+form {
+    text-align: center;
+}
+input{
+    background-color: #383B50;
+    width: 302px;
+    height: 54px;
+    font-size: 18px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 18px;
+    padding-left: center; 
+    border: 0px;
+    font-family: "Poppins", "sans-serif";
+}
+textarea {
+    background-color: #383B50;
+    height: 250px;
+    width: 302px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 0px;
+    font-family: "Poppins", "sans-serif";
+    color: white;
+    resize: none;
+}
+button {
+    background-color: #1F8EF1;
+    width: 302px;
+    height: 61px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+    text-transform: uppercase;
+    font-family: "Poppins", "sans-serif";
+}
+::placeholder {
+    color: white;
+    font-size: 18px;
+}
